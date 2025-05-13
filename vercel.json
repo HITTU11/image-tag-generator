@@ -1,0 +1,6 @@
+{
+  "buildCommand": "bash start.sh",
+  "outputDirectory": ".",
+  "ignoreCommand": "echo 'No ignore'",
+  "cleanUrls": true
+}
