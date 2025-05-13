@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: image-tag-api
+    env: node
+    plan: free
+    rootDir: server
+    buildCommand: npm install
+    startCommand: node index.js
+    envVars:
+      - key: PYTHON
+        value: python3
